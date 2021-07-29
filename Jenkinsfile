@@ -11,6 +11,8 @@ pipeline {
             
     
            steps {
+                 
+              echo "checking the file"
               
              checkout scm
            

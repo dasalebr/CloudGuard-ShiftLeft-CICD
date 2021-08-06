@@ -14,7 +14,7 @@ https://hub.docker.com/r/checkpoint/shiftleft
 
 > docker pull checkpoint/shiftleft
 
-Shiftleft SAST and static code analysis for code and container images will scan for CVEs, CWEs, Malware and credentials by leveraging Check Point ThreatCloud which is a collaborative network and cloud-driven knowledge base that delivers real-time dynamic security intelligence
+Shiftleft SAST and static code analysis for code and container images will scan for CVEs, CWEs, Malware and credentials by leveraging Check Point ThreatCloud which is a collaborative network and cloud-driven knowledge base that delivers real-time dynamic security intelligence.
 
 
 ## The following blades are currently available for use within the framework:

@@ -1,5 +1,7 @@
 # Check Point CloudGuard ShiftLeft integration with Jenkins CICD pipeline:
 
+[![IaC](https://app.soluble.cloud/api/v1/public/badges/9e939893-fa81-49ce-9d78-c46c71bc669a.svg)](https://app.soluble.cloud/repos/details/github.com/dasalebr/cloudguard-shiftleft-cicd)  [![CIS](https://app.soluble.cloud/api/v1/public/badges/bfe68245-1a2f-40a4-99d1-2b1e478d2928.svg)](https://app.soluble.cloud/repos/details/github.com/dasalebr/cloudguard-shiftleft-cicd)  [![HIPAA](https://app.soluble.cloud/api/v1/public/badges/8a7fc6cf-0660-4c34-8168-40dde76b0638.svg)](https://app.soluble.cloud/repos/details/github.com/dasalebr/cloudguard-shiftleft-cicd)  
+
 ## ![header image](warning.jpeg) This demo contains Malware so please do not use in a production environment and Handle with Care
 
 

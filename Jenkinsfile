@@ -1,8 +1,8 @@
 pipeline {
       agent any
       environment {
-           CHKP_CLOUDGUARD_ID = credentials("CHKP_CLOUDGUARD_ID")
-           CHKP_CLOUDGUARD_SECRET = credentials("CHKP_CLOUDGUARD_SECRET")
+           SECURE_API_TOKEN = credentials("SECURE_API_TOKEN")
+           
         }
         
   stages {
@@ -20,7 +20,7 @@ pipeline {
   
           }
           
-    stage('ShiftLeft Code Scan') {   
+    stage('Shift Code Scan') {   
        steps {   
                    
          script {      

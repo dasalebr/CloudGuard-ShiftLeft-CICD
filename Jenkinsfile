@@ -1,4 +1,4 @@
-pipeline {
+ pipeline {
       agent any
       environment {
            SECURE_API_TOKEN = credentials("SECURE_API_TOKEN")
@@ -31,7 +31,7 @@ pipeline {
             
                 sh 'chmod +x inlinescan_0.2.1_linux_amd64' 
 
-                sh './shiftleft code-scan -s .'
+              
            
                } catch (Exception e) {
     
@@ -90,7 +90,5 @@ pipeline {
                     
               }
             }
-  } 
+  
 }
-
-

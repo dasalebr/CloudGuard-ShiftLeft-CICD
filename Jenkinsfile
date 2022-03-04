@@ -68,7 +68,7 @@
                 script {      
               try {
          
-                    sh 'SECURE_API_TOKEN=$SECURE_API_TOKEN ./inlinescan_0.1.2_linux_amd64 --apiurl https://us2.app.sysdig.com'
+                    sh 'SECURE_API_TOKEN=$SECURE_API_TOKEN ./inlinescan_0.1.2_linux_amd64 --apiurl https://us2.app.sysdig.com' webapp.tar
                    } catch (Exception e) {
     
                  echo "Request for Approval"  

@@ -20,7 +20,7 @@ pipeline {
   
           }
           
-    stage('Shift Code Scan') {   
+    stage('Sysdig Secure Scan') {   
        steps {   
                    
          script {      
@@ -29,7 +29,7 @@ pipeline {
              
                 
             
-                sh 'chmod +x shiftleft' 
+                sh 'chmod +x inlinescan_0.2.1_linux_amd64' 
 
                 sh './shiftleft code-scan -s .'
            
@@ -62,13 +62,13 @@ pipeline {
            }
         
            
-       stage('ShiftLeft Container Image Scan') {    
+       stage('Sysdig Scanning Container Image Scan') {    
            
             steps {
                 script {      
               try {
          
-                    sh './shiftleft image-scan -t 180 -i webapp.tar'
+                    sh 'SECURE_API_TOKEN=$SECURE_API_TOKEN ./inlinescan_0.1.2_linux_amd64 --apiurl https://us2.app.sysdig.com'
                    } catch (Exception e) {
     
                  echo "Request for Approval"  

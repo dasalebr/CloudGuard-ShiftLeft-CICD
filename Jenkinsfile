@@ -86,11 +86,7 @@ pipeline {
             }
           }
         
-      stage('Terraform config policy Scan') {    
-           
-            steps {
-         
-                    sh './shiftleft iac-assessment -l S3Bucket should have encryption.serverSideEncryptionRules -p ./terraform'
+
                     
               }
             }
